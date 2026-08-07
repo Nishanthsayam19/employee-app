@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-	color:blue;
+	color:#0066cc;
 
 }
 
@@ -17,11 +17,13 @@ input{
 }
 
 button{
-	padding:10px;
+	padding:10px 20px;
 	background:green;
 	color:white;
 	border:none;
 	cursor:pointer;
+	margin-left:10px;
+
 
 }
 
@@ -33,9 +35,18 @@ table{
 
 }
 
-th{
-	background:blue;
-	color:white;
+table,th,td{
+	border:1px solid black;
 
+}
+th{
+	background:#0066cc;
+	color:white;
+	padding:10px;
+
+}
+
+td{
+	padding:10px;
 }
 
